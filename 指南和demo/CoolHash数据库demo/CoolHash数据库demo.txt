@@ -1,20 +1,20 @@
-ÔËĞĞ·½Ê½£º
-1¡¢Æô¶¯RunServer
+è¿è¡Œæ–¹å¼ï¼š
+1ã€å¯åŠ¨RunServer
 java  -cp fourinone.jar; RunServer localhost 2014 8
-¡°localhost 2014 8¡±3¸ö²ÎÊıÎªip¡¢¶Ë¿Ú¡¢¹¤ÈËÊıÁ¿£¨¸ù¾İ»úÆ÷ĞÔÄÜµ÷Õû£©
+â€œlocalhost 2014 8â€3ä¸ªå‚æ•°ä¸ºipã€ç«¯å£ã€å·¥äººæ•°é‡ï¼ˆæ ¹æ®æœºå™¨æ€§èƒ½è°ƒæ•´ï¼‰
 
-2¡¢ÔËĞĞRunClient
+2ã€è¿è¡ŒRunClient
 java  -cp fourinone.jar; RunClient localhost 2014
-¡°localhost 2014¡±2¸ö²ÎÊıÎªĞèÒªÁ¬½ÓµÄCoolHashServerµÄip¶Ë¿Ú
+â€œlocalhost 2014â€2ä¸ªå‚æ•°ä¸ºéœ€è¦è¿æ¥çš„CoolHashServerçš„ipç«¯å£
 
-µÚÒ»´ÎÔËĞĞÊ±£¬»áÔÚÍ¬Ä¿Â¼ÏÂ×Ô¶¯Éú³Édata(Êı¾İ)¡¢log£¨ÈÕÖ¾£©£¬Èç¹ûÃ»ÓĞÅäÖÃÎÄ¼ş£¬»¹»á×Ô¶¯Éú³Éconfig.xmlÄ¬ÈÏÅäÖÃ¡£
+ç¬¬ä¸€æ¬¡è¿è¡Œæ—¶ï¼Œä¼šåœ¨åŒç›®å½•ä¸‹è‡ªåŠ¨ç”Ÿæˆdata(æ•°æ®)ã€logï¼ˆæ—¥å¿—ï¼‰ï¼Œå¦‚æœæ²¡æœ‰é…ç½®æ–‡ä»¶ï¼Œè¿˜ä¼šè‡ªåŠ¨ç”Ÿæˆconfig.xmlé»˜è®¤é…ç½®ã€‚
 
-Èç¹ûĞèÒªÔÚlinuxÉÏÉèÖÃÖĞÎÄ»·¾³£º
-1¡¢±àÒëĞèÒªÌí¼Ó¡°-encoding gbk¡±
+å¦‚æœéœ€è¦åœ¨linuxä¸Šè®¾ç½®ä¸­æ–‡ç¯å¢ƒï¼š
+1ã€ç¼–è¯‘éœ€è¦æ·»åŠ â€œ-encoding gbkâ€
 javac -encoding gbk  -cp fourinone.jar: *.java
 
-2¡¢Æô¶¯RunServerĞèÒªÖ¸¶¨ÓïÑÔ»·¾³£¨Ôö¼ÓÒ»¸ögdk²ÎÊı£©
+2ã€å¯åŠ¨RunServeréœ€è¦æŒ‡å®šè¯­è¨€ç¯å¢ƒï¼ˆå¢åŠ ä¸€ä¸ªgdkå‚æ•°ï¼‰
 java  -cp fourinone.jar: RunServer 192.168.0.1 2014 8 gdk
 
-3¡¢ÔËĞĞRunClientĞèÒªÔö¼Ó-Dfile.encoding='gbk'
+3ã€è¿è¡ŒRunClientéœ€è¦å¢åŠ -Dfile.encoding='gbk'
 java -Dfile.encoding='gbk' -cp fourinone.jar: RunClient 192.168.0.1 2014

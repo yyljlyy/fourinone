@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/指南和demo/CoolHash数据库demo/CoolHash数据库demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/MQ demo/MQ demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/SayHello/SayHello.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/WordCount/WordCount.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/分布式文件访问和操作demo/分布式文件访问和操作指南.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/分布式缓存demo/分布式缓存demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/分布式计算上手demo/分布式计算上手demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/分布式计算完整demo/分布式计算完整demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/分布式锁demo/分布式锁demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/启动多个工人进程demo/启动多个工人进程demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/本地工人并行计算demo/本地工人并行计算demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/统一配置管理demo/统一配置管理demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/计算中止demo/计算中止demo.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指南和demo/集群管理demo/集群管理demo.txt" charset="UTF-8" />
+  </component>
+</project>
