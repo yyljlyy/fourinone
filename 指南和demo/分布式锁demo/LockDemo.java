@@ -17,7 +17,7 @@ public class LockDemo
 			//System.out.println(curnode);
 			if(curnode.equals(node)){
 				System.out.println("");
-				System.out.println("ok, get lock and doing...");
+				System.out.println("ok, get lock "+node+" and doing...");
 				try{Thread.sleep(8000);}catch(Exception e){}
 				pl.delete("lock", node);
 				System.out.println("done.");

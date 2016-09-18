@@ -1,6 +1,6 @@
 import com.fourinone.BeanContext;
 
-public class ParkServerDemo
+public class ParkServerHelloDemo
 {
 	public static void main(String[] args)
 	{
